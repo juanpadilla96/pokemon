@@ -1,0 +1,36 @@
+.paginado {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .paginado li {
+    margin: 0 5px;
+  }
+  
+  .paginado li a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .paginado li a:hover {
+    background-color: #ddd;
+  }
+  
+  .paginado li.active a {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .paginado li.disabled a {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  
